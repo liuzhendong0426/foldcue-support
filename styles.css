@@ -1,0 +1,32 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; color: #182235; background: #f6f8fc; }
+* { box-sizing: border-box; }
+body { margin: 0; font-size: 1rem; line-height: 1.85; }
+a { color: #174ccc; text-underline-offset: .2em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: .14em; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #174ccc; outline-offset: 5px; border-radius: 3px; }
+.skip { position: absolute; left: 1rem; top: -8rem; padding: .5rem 1rem; background: white; z-index: 2; }
+.skip:focus { top: 1rem; }
+.shell { width: min(100% - 2rem, 54rem); margin: auto; }
+.topbar { background: #fff; border-bottom: 1px solid #dfe5ef; }
+.topbar .shell { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; padding-block: 1rem; }
+.brand { font-size: 1.15rem; font-weight: 700; color: #182235; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 1.25rem; font-size: .95rem; }
+nav a[aria-current="page"] { font-weight: 700; }
+main { padding-block: 2.5rem; }
+h1 { font-size: clamp(1.8rem, 5vw, 2.7rem); line-height: 1.3; margin: 0 0 1rem; letter-spacing: -.025em; }
+h2 { font-size: 1.25rem; line-height: 1.5; margin: 2rem 0 .65rem; }
+p { margin: .65rem 0 1rem; }
+.muted { color: #536078; }
+.contact { background: #fff; border: 1px solid #dfe5ef; border-left: 4px solid #285bdb; padding: 1.2rem 1.4rem; border-radius: .5rem; margin: 1.5rem 0 2rem; }
+.contact p { margin: .25rem 0; }
+.document { background: #fff; border: 1px solid #dfe5ef; padding: clamp(1.2rem, 4vw, 2.5rem); border-radius: .8rem; }
+.document h2:first-child { margin-top: 0; }
+ol, ul { padding-left: 1.5rem; }
+li { margin-block: .5rem; }
+details { background: #fff; border: 1px solid #dfe5ef; border-radius: .6rem; margin-block: .8rem; padding: 1rem 1.2rem; }
+summary { cursor: pointer; font-weight: 600; line-height: 1.65; }
+details p:last-child { margin-bottom: .1rem; }
+.note { border-top: 1px solid #dfe5ef; padding-top: 1.25rem; margin-top: 2rem; font-size: .95rem; }
+footer { padding: 1.5rem 0 2rem; border-top: 1px solid #dfe5ef; color: #536078; font-size: .9rem; }
+@media (max-width: 30rem) { main { padding-block: 1.5rem; } .contact { padding: 1rem; } nav { gap: .9rem; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
