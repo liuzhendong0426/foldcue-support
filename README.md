@@ -1,12 +1,18 @@
-# 折镜口播 · 支持与隐私
+# 折镜口播与看这里相机公开支持资料
 
-开发者：刘震东。客服邮箱：164216265@qq.com。
+开发者：刘震东。公开客服邮箱：164216265@qq.com。
 
-公开静态页（无登录、无表单、无行为分析）：
+包含两款工具各自的支持与隐私页面，无登录、表单、行为分析或上传功能。公开页面不代表 App 已通过审核、已上架、已可购买或已完成附屏真机验收。外部 Tailwind/Font Awesome CDN 用于界面样式，基础样式保留在本地，CDN 不可用时正文和链接仍可阅读。
 
-- 支持：https://liuzhendong0426.github.io/foldcue-support/
-- 隐私：https://liuzhendong0426.github.io/foldcue-support/privacy.html
-- 看这里相机支持：https://liuzhendong0426.github.io/foldcue-support/lookhere/
-- 看这里相机隐私：https://liuzhendong0426.github.io/foldcue-support/lookhere/privacy.html
+正式公开地址（GitHub Pages，匿名 HTTP 200 已核验）：
 
-本仓库仅存放上述公开资料，不含 App 源码或签名材料。
+- `/`：折镜口播支持 → https://liuzhendong0426.github.io/foldcue-support/
+- `/privacy.html`：折镜口播隐私政策 → https://liuzhendong0426.github.io/foldcue-support/privacy.html
+- `/lookhere/`：看这里相机支持
+- `/lookhere/privacy.html`：看这里相机隐私政策
+
+历史 ChatGPT Sites 地址 `https://foldcue-support.liuzd.chatgpt.site` 曾部署成功，但对匿名访客常返回 Cloudflare 403，已不再用作 App / ASC 字段。
+
+使用 `npm test` 验证四页基本内容、相对链接和原免费说明；`node scripts/validate-publication.mjs` 检查发布内容与精确文件集；`npm run build` 生成 `out`；`node scripts/validate-publication.mjs --output` 核验输出文件。不需要安装第三方依赖。
+
+公开托管仓库：https://github.com/liuzhendong0426/foldcue-support （GitHub Pages from `main`）。本目录可继续作为源；不要把应用源码、测试录像、签名材料或上级目录提交到公开仓库。
