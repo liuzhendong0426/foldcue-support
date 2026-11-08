@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="印迹帮助与支持：本机照片／视频去水印与局部修复，框选涂抹、保护层、文字建议与另存。开发者刘震东。">
+  <title>帮助与支持 · 印迹</title>
+  <link rel="canonical" href="https://liuzhendong0426.github.io/foldcue-support/watermarkstudio/">
+  <script src="https://cdn.tailwindcss.com" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">跳至正文</a>
+  <header class="topbar"><div class="shell">
+    <a class="brand" href="./">印迹</a>
+    <nav aria-label="页面导航"><a href="./" aria-current="page">帮助与支持</a><a href="privacy.html">隐私政策</a><a href="../">折镜口播</a></nav>
+  </div></header>
+  <main id="content" class="shell">
+    <h1>帮助与支持</h1>
+    <p class="muted">印迹（WatermarkStudio）是本机照片与视频局部修复工具，用于标出已有水印并在设备上推测填补背景。素材在本机处理，不会上传到开发者服务器。AI 填补是推测结果，复杂纹理、人像或半透明水印可能留痕，导出前请对比检查。</p>
+    <section class="contact" aria-label="开发者与联系方式">
+      <p>开发者：<strong>刘震东</strong></p>
+      <p><i class="fa fa-envelope-o" aria-hidden="true"></i> 客服邮箱：<a href="mailto:164216265@qq.com">164216265@qq.com</a></p>
+      <p class="muted text-sm">反馈时可提供设备型号、系统与 App 版本、操作步骤及错误提示。请勿发送账号密码、无关证件或未获授权的私人照片／视频。</p>
+    </section>
+    <section class="document" aria-labelledby="first-use">
+      <h2 id="first-use">完成第一次照片去水印</h2>
+      <ol>
+        <li>打开「照片去水印」，选择照片或从文件导入；也可先用自产示例体验。</li>
+        <li>用框选或画笔标出要修复的水印区域；需要保留的部分可切到保护层标注。</li>
+        <li>可选：运行文字区域建议，仅作辅助参考，请人工确认后再修复。</li>
+        <li>开始修复，对比原图与结果；满意后另存或分享。原文件不会被覆盖。</li>
+      </ol>
+      <p class="muted">视频去水印在独立标签中操作：导入短片、标注区域（可含关键帧），逐帧本机修复后导出。处理上限与画质受设备性能和源片条件影响，不代表所有视频都能无损去除水印。</p>
+    </section>
+    <h2>常见问题</h2>
+    <details open><summary>照片和视频权限分别做什么？</summary>
+      <p>导入时通过系统照片选择器或文件选择器，只读取你主动选中的素材。另存到系统相册时，才请求「仅添加」相册权限，用于写入你选择导出的结果，不浏览整库。</p>
+      <p>拒绝相册添加权限后仍可在应用内处理并用系统分享导出；拒绝后无法直接写入系统相册，可在系统设置中更改授权。</p>
+    </details>
+    <details><summary>处理发生在哪里？会上传吗？</summary>
+      <p>修复使用本机 Core ML 模型与系统 Vision 等能力，在设备上完成。当前版本不要求注册账号，不把素材上传到开发者服务器或第三方 AI 云端。</p>
+      <p>主动分享、系统备份或你选择的接收应用可能自行使用网络，那不属于开发者收集素材。</p>
+    </details>
+    <details><summary>文字识别建议可靠吗？</summary>
+      <p>文字区域建议只是可选辅助，用于标出可能的文字位置，不保证识别出水印语义，也不自动替你确认。复杂平铺、半透明或人物背景上的水印仍可能需要手动标注。</p>
+    </details>
+    <details><summary>结果为什么还有痕迹？</summary>
+      <p>AI 只能推测被遮挡内容，无法保证恢复原本真实画面。分区高清等试验选项也不保证对所有素材更好。请用对比查看，不满意可调整选区或保护层后重试。</p>
+    </details>
+    <details><summary>「其他工具」是什么？</summary>
+      <p>「其他工具」保留历史加水印等工作台能力（例如为照片／视频／PDF 添加标记）。去水印与加水印是不同流程；本页以去水印为主说明。</p>
+    </details>
+    <details><summary>数据存在哪里？队列会保留吗？</summary>
+      <p>处理队列与结果主要保存在应用本地空间；历史加水印工作台可在本机恢复项目资料。去水印队列的跨启动完整恢复仍以实际版本行为为准，重要结果请及时另存或分享。</p>
+      <p>删除应用会清除应用容器内数据；系统相册、分享副本和系统备份相互独立，不会因卸载自动清除。</p>
+    </details>
+    <details><summary>是否需要账号或购买？</summary>
+      <p>当前版本不要求注册账号。内购商品若未在 App 中配置，核心去水印与编辑功能按免费可用提示显示；若日后接入 App Store 商品，购买与恢复由 Apple 处理。此支持页面不代表 App 已通过审核或已上架。</p>
+    </details>
+    <p class="note muted">详细说明见<a href="privacy.html">印迹隐私政策</a>。提词与录像工具请看<a href="../">折镜口播</a>。</p>
+  </main>
+  <footer><div class="shell">© 2026 刘震东 · 印迹 · 更新于 2026 年 11 月 8 日</div></footer>
+</body>
+</html>
