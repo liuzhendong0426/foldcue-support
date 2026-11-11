@@ -1,4 +1,4 @@
-# 折镜口播、看这里相机、双面商家牌、聚一下与印迹公开支持资料
+# 折镜口播、看这里相机、双面商家牌、聚一下、印迹与开合壁纸公开支持资料
 
 开发者：刘震东。公开客服邮箱：164216265@qq.com。
 
@@ -16,6 +16,8 @@
 - `/partygames/privacy.html`：聚一下隐私政策 → https://liuzhendong0426.github.io/foldcue-support/partygames/privacy.html
 - `/watermarkstudio/`：印迹支持 → https://liuzhendong0426.github.io/foldcue-support/watermarkstudio/
 - `/watermarkstudio/privacy.html`：印迹隐私政策 → https://liuzhendong0426.github.io/foldcue-support/watermarkstudio/privacy.html
+- `/kaihe/`：开合壁纸支持 → https://liuzhendong0426.github.io/foldcue-support/kaihe/
+- `/kaihe/privacy.html`：开合壁纸隐私政策 → https://liuzhendong0426.github.io/foldcue-support/kaihe/privacy.html
 
 历史 ChatGPT Sites 地址 `https://foldcue-support.liuzd.chatgpt.site` 曾部署成功，但对匿名访客常返回 Cloudflare 403，已不再用作 App / ASC 字段。
 
